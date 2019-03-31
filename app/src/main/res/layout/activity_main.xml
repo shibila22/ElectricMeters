@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout tools:context=".MainActivity" android:padding="32dp" android:gravity="center" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/cNumber" android:textColor="@color/black"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number" android:id="@+id/et_cNumber"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/consuption" android:textColor="@color/black" android:layout_marginTop="8dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal" android:id="@+id/et_consuption"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="16dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/cost" android:textColor="@color/black" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/black" android:id="@+id/tv_cost"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/Calculate" android:id="@+id/btnCalculate" android:layout_marginTop="32dp"/>
+
+</LinearLayout>

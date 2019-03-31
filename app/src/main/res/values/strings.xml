@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ElectricMeter</string>
+    <string name="cNumber">Consumer Number</string>
+
+    <string name="consuption">Consuption</string>
+
+    <string name="cost">Cost :</string>
+
+    <string name="Calculate">Calculate</string>
+</resources>
